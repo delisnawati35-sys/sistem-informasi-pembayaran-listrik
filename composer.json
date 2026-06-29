@@ -1,0 +1,8 @@
+{
+    "name": "delisna/sistem-pembayaran-listrik",
+    "description": "Sistem Pembayaran Listrik berbasis PHP Native",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    }
+}

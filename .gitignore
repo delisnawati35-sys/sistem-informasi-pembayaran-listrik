@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Composer
+/vendor/
+
+# Upload pengguna
+/uploads/*
+
+# Simpan folder uploads
+!/uploads/.gitkeep
+
+# Environment
+.env

@@ -1,0 +1,82 @@
+body {
+    background: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.sidebar {
+    min-height: 100vh;
+}
+
+.menu-link {
+    text-decoration: none;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: white;
+}
+
+.sidebar .list-group-item {
+
+    border: 0;
+
+    padding: 15px 20px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+
+}
+
+.sidebar .list-group-item:hover {
+
+    background: #0d6efd;
+
+    color: white;
+
+}
+
+.sidebar .list-group-item.active {
+
+    background: #0d6efd;
+
+    color: white;
+
+}
+
+.sidebar i {
+
+    margin-right: 10px;
+
+}
+
+.card {
+
+    transition: .3s;
+
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.table th {
+
+    text-align: center;
+
+}
+
+.table td {
+
+    vertical-align: middle;
+
+}
