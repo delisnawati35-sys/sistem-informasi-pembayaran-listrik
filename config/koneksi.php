@@ -1,13 +1,19 @@
+
+
 <?php
 
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "db_pembayaran_listrik";
+$host     = "sql104.infinityfree.com";
+$username = "if0_42301072";
+$password = "TmfchmrWq5Zu";
+$database = "if0_42301072_db_pembayaran_listrik";
 
-$koneksi = mysqli_connect($host, $user, $password, $database);
+$koneksi = mysqli_connect(
+    $host,
+    $username,
+    $password,
+    $database
+);
 
 if (!$koneksi) {
-    die("Koneksi database gagal : " . mysqli_connect_error());
+    die("Koneksi database gagal: " . mysqli_connect_error());
 }
-?>
